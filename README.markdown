@@ -5,7 +5,7 @@ AWS integration in your Django based project.
 
 ## Requirements
 
-boto (http://boto.googlecode.com)
+ * boto [http://boto.googlecode.com](http://boto.googlecode.com)
 
 ## Install
 
