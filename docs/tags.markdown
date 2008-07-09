@@ -47,7 +47,7 @@ Example:
 	{% list_bucket example.com images as image_list %}
 	<ul>
 	{% for key in image_list %}
-		<li>{{ key.name }} (key.size|filesizeformat)</li>
+		<li>{{ key.name }} ({{key.size|filesizeformat}})</li>
 	{% endfor %}
 	</ul>
 	
