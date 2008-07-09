@@ -28,7 +28,7 @@ Example:
 
     {% get_buckets as buckets %}
 	<ul>
-	{% for bucket in bucket %}
+	{% for bucket in buckets %}
 		<li>{{ bucket.name }}</li>
 	{% endfor %}
 	</ul>
