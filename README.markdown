@@ -10,4 +10,5 @@ AWS integration in your Django based project.
 ## Install
 
 Simply make sure that this app is on your PYTHON PATH.  Maybe I'll add an 
-installer later.
+installer later.  Once it is in your PYTHON PATH then to use it in your 
+project, add it to your INSTALLED_APPS tuple in your settings module.
