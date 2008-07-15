@@ -16,7 +16,7 @@ Tags for Amazon's storage service, S3, will allow you to list buckets,
 enumerate the contents of a bucket, and display information about a particular
 object.
 
-### `get_buckets`
+### get_buckets
 
 Gets a list of bucket objects.
 
@@ -34,7 +34,7 @@ Example:
 	</ul>
 
 
-### `list_bucket`
+### list_bucket
 
 Gets a list of objects inside a particular bucket.
 
@@ -52,7 +52,7 @@ Example:
 	</ul>
 	
 
-### `get_object_info`
+### get_object_info
 
 Gets information about a particular object.
 
@@ -77,7 +77,7 @@ Example:
 Tags for Amazon's elastic compute cloud service, that will allow you to list 
 running machines and various details about them.
 
-### `get_running_nodes`
+### get_running_nodes
 
 Syntax:
 
@@ -100,7 +100,7 @@ Tags for Amazon's message queueing service that will provide information to
 the template context such as listing available queues and their estimated 
 count of messages.
 
-### `get_queues`
+### get_queues
 
 Syntax:
 
@@ -115,7 +115,7 @@ Example:
 	{% endfor %}
 	</ul>
 
-### `get_message_count`
+### get_message_count
 
 Syntax:
 	
