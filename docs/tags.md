@@ -4,10 +4,10 @@ Before using any of these tags in your templates, remember to load them with
 ``{% load aws %}``.  These tags expose to the template author the following 
 boto objects:
 
- * [S3 Key] (http://boto.googlecode.com/svn/trunk/boto/s3/key.py)
- * [S3 Bucket] (http://boto.googlecode.com/svn/trunk/boto/s3/bucket.py)
- * [EC2 Instance] (http://boto.googlecode.com/svn/trunk/boto/ec2/instance.py)
- * [SQS Queue] (http://boto.googlecode.com/svn/trunk/boto/sqs/queue.py)
+ * [S3 Key](http://boto.googlecode.com/svn/trunk/boto/s3/key.py)
+ * [S3 Bucket](http://boto.googlecode.com/svn/trunk/boto/s3/bucket.py)
+ * [EC2 Instance](http://boto.googlecode.com/svn/trunk/boto/ec2/instance.py)
+ * [SQS Queue](http://boto.googlecode.com/svn/trunk/boto/sqs/queue.py)
 
 ## Tags for S3
 
