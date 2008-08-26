@@ -1,25 +1,21 @@
-----------------------------
-Template Tags for django-aws
-----------------------------
+# Template Tags for django-aws
 
 Before using any of these tags in your templates, remember to load them with
 ``{% load aws %}``.  These tags expose to the template author the following 
 boto objects:
 
-- `S3 Key <http://boto.googlecode.com/svn/trunk/boto/s3/key.py>`_
-- `S3 Bucket <http://boto.googlecode.com/svn/trunk/boto/s3/bucket.py>`_
-- `EC2 Instance <http://boto.googlecode.com/svn/trunk/boto/ec2/instance.py>`_
-- `SQS Queue <http://boto.googlecode.com/svn/trunk/boto/sqs/queue.py>`_
+ * [S3 Key] (http://boto.googlecode.com/svn/trunk/boto/s3/key.py)
+ * [S3 Bucket] (http://boto.googlecode.com/svn/trunk/boto/s3/bucket.py)
+ * [EC2 Instance] (http://boto.googlecode.com/svn/trunk/boto/ec2/instance.py)
+ * [SQS Queue] (http://boto.googlecode.com/svn/trunk/boto/sqs/queue.py)
 
-Tags for S3
------------
+## Tags for S3
 
 Tags for Amazon's storage service, S3, will allow you to list buckets, 
 enumerate the contents of a bucket, and display information about a particular
 object.
 
-get_buckets
-============
+### get\_buckets
 
 Gets a list of bucket objects.
 
@@ -37,8 +33,7 @@ Example:
 	</ul>
 
 
-list_bucket
-============
+### list\_bucket
 
 Gets a list of objects inside a particular bucket.
 
@@ -56,8 +51,7 @@ Example:
 	</ul>
 	
 
-get_object_info
-===============
+### get\_object\_info
 
 Gets information about a particular object.
 
@@ -77,14 +71,12 @@ Example:
 	</ul>
 
 
-Tags for EC2
-------------
+## Tags for EC2
 
 Tags for Amazon's elastic compute cloud service, that will allow you to list 
 running machines and various details about them.
 
-get_running_nodes
-=================
+### get\_running\_nodes
 
 Syntax:
 
@@ -101,15 +93,13 @@ Example:
 	{% endfor %}
 	</ul>
 
-Tags for SQS
-------------
+## Tags for SQS
 
 Tags for Amazon's message queueing service that will provide information to 
 the template context such as listing available queues and their estimated 
 count of messages.
 
-get_queues
-==========
+### get\_queues
 
 Syntax:
 
@@ -124,8 +114,7 @@ Example:
 	{% endfor %}
 	</ul>
 
-get_message_count
-=================
+### get\_message\_count
 
 Syntax:
 	

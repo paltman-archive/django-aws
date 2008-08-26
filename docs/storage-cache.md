@@ -1,6 +1,4 @@
-----------------------------
-Simple Storage Service Cache
-----------------------------
+# Simple Storage Service Cache
 
 This app has one or more models, a management command, and set of default
 date based views.
@@ -11,8 +9,7 @@ slice of the cloud.  By leveraging a local data store, you can have an up
 to date cache of files, their meta data, and their object url.
 
 
-The Management Command
-----------------------
+## The Management Command
 
 The management command seeds the cache with information about your objects
 on S3.  The syntax is simple:
