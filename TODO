@@ -3,3 +3,7 @@
 [ ] Implement EC2 Tags
 [ ] Implement configurable caching
 [ ] Add a setup package to build an egg for distribution
+[ ] Implement a local S3 cache
+	[ ] Custom manage command to load the cache
+	[ ] Model to store the cache
+	[ ] Templates to render the cache
