@@ -19,6 +19,23 @@ on S3.  The syntax is simple:
 For this to execute successfully, like just about everything else in this
 app, you need boto installed and configured properly.
 
+This command assumes you've already either run syncdb or otherwise have 
+already created the tables that correspond to this app's models.  That is
+because this command will sync up the table with new/changed data from
+your S3 buckets.
+
+## Configuration Settings
+
+Many of settings have defaults, but there are a few that are required.
+
+### AWS_S3_BUCKETS
+This setting should be a tuple of all the buckets on your account that 
+you are interested in caching to your local data store.
+
+### TODO: DOCUMENT OTHER SETTINGS HERE
+
+
+
 
 
 
