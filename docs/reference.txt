@@ -1,0 +1,129 @@
+.. _ref-django-aws-reference:
+
+
+=========
+Reference
+=========
+
+This document covers various components of ``django-aws``.
+
+
+Settings
+========
+
+``AWS_ACCESS_KEY``
+-------------------
+
+**Required**.  The AWS access key.
+
+::
+
+    AWS_SECRET_KEY = "######"
+
+
+``AWS_SECRET_KEY``
+---------------------
+
+**Required**.  The AWS Secret Key.
+
+::
+
+    AWS_SECRET_KEY = "#######"
+
+
+Named URLs
+==========
+
+The named URLs in this app should enable the use of of the ``{% url %}``
+template tag as well as ``reverse`` lookups in your project code without having
+to know the implementation details of this app.
+
+
+aws_bucket_list
+---------------
+
+
+aws_key_list
+------------
+
+
+aws_key_detail
+--------------
+
+
+aws_node_list
+-------------
+
+
+aws_node_detail
+---------------
+
+
+aws_sqs_list
+------------
+
+
+aws_sqs_detail
+--------------
+
+
+
+
+Templates
+=========
+
+Templates should be placed in an ``aws/`` folder at the root of one of your
+template search paths.
+
+
+s3_bucket_list.html
+-------------------
+
+:context: ``aws``
+
+
+Modules
+=======
+
+
+``aws.admin``
+-------------
+
+.. automodule:: aws.admin
+   :members:
+   :undoc-members:
+
+
+``aws.models``
+--------------
+
+.. automodule:: aws.models
+   :members:
+   :undoc-members:
+
+
+``aws.templatetags.ec2``
+------------------------
+
+.. automodule:: aws.templatetags.ec2
+   :members:
+   :undoc-members:
+
+
+``aws.templatetags.s3``
+-----------------------
+
+.. automodule:: aws.templatetags.s3
+   :members:
+   :undoc-members:
+
+
+``aws.templatetags.sqs``
+------------------------
+
+.. automodule:: aws.templatetags.sqs
+   :members:
+   :undoc-members:
+
+
+

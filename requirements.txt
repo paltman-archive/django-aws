@@ -1,0 +1,5 @@
+Django==1.2.1
+boto==1.9b
+
+# Only for building docs
+Sphinx==1.0b2

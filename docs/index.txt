@@ -1,0 +1,27 @@
+.. _ref-django-aws-index:
+
+==========
+Django AWS
+==========
+
+An app that provides a number of utilities for interfacing with `Amazon Web Services`_.
+
+
+Contents:
+
+.. toctree::
+    :maxdepth: 2
+
+    gettingstarted
+    reference
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+
+.. _Amazon Web Services: http://aws.amazon.com/
